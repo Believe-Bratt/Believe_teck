@@ -1,0 +1,2064 @@
+[2025-03-30 09:02:11] ERROR: Category Name must be at least 3 characters long {"action":"add_category"}
+[2025-03-30 09:02:22] ERROR: Category Name must be at least 3 characters long {"action":"add_category"}
+[2025-03-30 09:06:34] ERROR: Category Name must be at least 3 characters long {"action":"add_category"}
+[2025-03-30 09:10:52] ERROR: Category Name must be at least 3 characters long {"action":"add_category"}
+[2025-03-30 10:00:28] ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values = '<p>srythsrr</p>',
+                updated_at = NOW() 
+           ...' at line 6 {"action":"update_about"}
+[2025-03-30 10:02:09] ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mission' in 'field list' {"action":"update_about"}
+[15-Apr-2025 17:15:31 UTC] Database connection successful in Database class
+[15-Apr-2025 17:15:31 UTC] Team table exists: Yes
+[15-Apr-2025 17:15:31 UTC] Number of team members in database: 0
+[15-Apr-2025 17:15:31 UTC] Team table check/creation completed
+[15-Apr-2025 17:15:31 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 17:15:31 UTC] Found 0 team members
+[15-Apr-2025 17:15:31 UTC] Team members count: 0
+[15-Apr-2025 17:15:31 UTC] Team members data: Array
+(
+)
+
+[15-Apr-2025 17:15:31 UTC] Team members table exists: Yes
+[15-Apr-2025 17:15:33 UTC] Database connection successful in Database class
+[15-Apr-2025 17:15:33 UTC] Team table exists: Yes
+[15-Apr-2025 17:15:33 UTC] Number of team members in database: 0
+[15-Apr-2025 17:15:33 UTC] Team table check/creation completed
+[15-Apr-2025 17:15:33 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 17:15:33 UTC] Found 0 team members
+[15-Apr-2025 17:15:33 UTC] Team members count: 0
+[15-Apr-2025 17:15:33 UTC] Team members data: Array
+(
+)
+
+[15-Apr-2025 17:15:33 UTC] Team members table exists: Yes
+[15-Apr-2025 17:17:31 UTC] Database connection successful in config.php
+[15-Apr-2025 17:17:31 UTC] About page team members count: 0
+[15-Apr-2025 17:17:31 UTC] About page team members data: Array
+(
+)
+
+[15-Apr-2025 17:17:31 UTC] Database connection successful in Database class
+[15-Apr-2025 17:17:31 UTC] Team table exists: Yes
+[15-Apr-2025 17:17:31 UTC] Number of team members in database: 0
+[15-Apr-2025 17:17:31 UTC] Team table check/creation completed
+[15-Apr-2025 17:21:10 UTC] Database connection successful in Database class
+[15-Apr-2025 17:21:10 UTC] Team table exists: Yes
+[15-Apr-2025 17:21:10 UTC] Number of team members in database: 0
+[15-Apr-2025 17:21:10 UTC] Team table check/creation completed
+[15-Apr-2025 17:21:10 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 17:21:10 UTC] Found 0 team members
+[15-Apr-2025 17:21:10 UTC] Team members count: 0
+[15-Apr-2025 17:21:10 UTC] Team members data: Array
+(
+)
+
+[15-Apr-2025 17:21:10 UTC] Team members table exists: Yes
+[15-Apr-2025 17:21:12 UTC] Database connection successful in Database class
+[15-Apr-2025 17:21:12 UTC] Team table exists: Yes
+[15-Apr-2025 17:21:12 UTC] Number of team members in database: 0
+[15-Apr-2025 17:21:12 UTC] Team table check/creation completed
+[15-Apr-2025 17:21:12 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 17:21:12 UTC] Found 0 team members
+[15-Apr-2025 17:21:12 UTC] Team members count: 0
+[15-Apr-2025 17:21:12 UTC] Team members data: Array
+(
+)
+
+[15-Apr-2025 17:21:12 UTC] Team members table exists: Yes
+[15-Apr-2025 17:21:42 UTC] Database connection successful in Database class
+[15-Apr-2025 17:21:42 UTC] Team table exists: Yes
+[15-Apr-2025 17:21:42 UTC] Number of team members in database: 0
+[15-Apr-2025 17:21:42 UTC] Team table check/creation completed
+[15-Apr-2025 17:21:42 UTC] Adding team member: {"name":"Believe","position":"Project Manager","bio":"cccc...","image":"uploads\/team\/67fe95a6bb14b_1744737702.jpg","linkedin_url":"","twitter_url":"","order_index":1}
+[15-Apr-2025 17:21:42 UTC] Successfully added team member with ID: 4
+[15-Apr-2025 17:21:42 UTC] Database connection successful in Database class
+[15-Apr-2025 17:21:42 UTC] Team table exists: Yes
+[15-Apr-2025 17:21:42 UTC] Number of team members in database: 1
+[15-Apr-2025 17:21:42 UTC] Team table check/creation completed
+[15-Apr-2025 17:21:42 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 17:21:42 UTC] Found 1 team members
+[15-Apr-2025 17:21:42 UTC] Team members count: 1
+[15-Apr-2025 17:21:42 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:21:42 UTC] Team members table exists: Yes
+[15-Apr-2025 17:21:48 UTC] Database connection successful in config.php
+[15-Apr-2025 17:21:48 UTC] About page team members count: 1
+[15-Apr-2025 17:21:48 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:21:48 UTC] Database connection successful in Database class
+[15-Apr-2025 17:21:48 UTC] Team table exists: Yes
+[15-Apr-2025 17:21:48 UTC] Number of team members in database: 1
+[15-Apr-2025 17:21:48 UTC] Team table check/creation completed
+[15-Apr-2025 17:24:30 UTC] Database connection successful in config.php
+[15-Apr-2025 17:24:30 UTC] About page team members count: 1
+[15-Apr-2025 17:24:30 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:24:30 UTC] Database connection successful in Database class
+[15-Apr-2025 17:24:30 UTC] Team table exists: Yes
+[15-Apr-2025 17:24:30 UTC] Number of team members in database: 1
+[15-Apr-2025 17:24:30 UTC] Team table check/creation completed
+[15-Apr-2025 17:26:33 UTC] Database connection successful in config.php
+[15-Apr-2025 17:26:33 UTC] About page team members count: 1
+[15-Apr-2025 17:26:33 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:26:33 UTC] Database connection successful in Database class
+[15-Apr-2025 17:26:33 UTC] Team table exists: Yes
+[15-Apr-2025 17:26:33 UTC] Number of team members in database: 1
+[15-Apr-2025 17:26:33 UTC] Team table check/creation completed
+[15-Apr-2025 17:28:35 UTC] Database connection successful in config.php
+[15-Apr-2025 17:28:35 UTC] About page team members count: 1
+[15-Apr-2025 17:28:35 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:28:35 UTC] Database connection successful in Database class
+[15-Apr-2025 17:28:35 UTC] Team table exists: Yes
+[15-Apr-2025 17:28:35 UTC] Number of team members in database: 1
+[15-Apr-2025 17:28:35 UTC] Team table check/creation completed
+[15-Apr-2025 17:28:58 UTC] Database connection successful in config.php
+[15-Apr-2025 17:28:58 UTC] About page team members count: 1
+[15-Apr-2025 17:28:58 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:28:58 UTC] Database connection successful in Database class
+[15-Apr-2025 17:28:58 UTC] Team table exists: Yes
+[15-Apr-2025 17:28:58 UTC] Number of team members in database: 1
+[15-Apr-2025 17:28:58 UTC] Team table check/creation completed
+[15-Apr-2025 17:29:14 UTC] Database connection successful in config.php
+[15-Apr-2025 17:29:14 UTC] About page team members count: 1
+[15-Apr-2025 17:29:14 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:29:14 UTC] Database connection successful in Database class
+[15-Apr-2025 17:29:14 UTC] Team table exists: Yes
+[15-Apr-2025 17:29:14 UTC] Number of team members in database: 1
+[15-Apr-2025 17:29:14 UTC] Team table check/creation completed
+[15-Apr-2025 17:30:44 UTC] Database connection successful in config.php
+[15-Apr-2025 17:30:44 UTC] About page team members count: 1
+[15-Apr-2025 17:30:44 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:30:44 UTC] Database connection successful in Database class
+[15-Apr-2025 17:30:44 UTC] Team table exists: Yes
+[15-Apr-2025 17:30:44 UTC] Number of team members in database: 1
+[15-Apr-2025 17:30:44 UTC] Team table check/creation completed
+[15-Apr-2025 17:31:13 UTC] Database connection successful in Database class
+[15-Apr-2025 17:31:13 UTC] Team table exists: Yes
+[15-Apr-2025 17:31:13 UTC] Number of team members in database: 1
+[15-Apr-2025 17:31:13 UTC] Team table check/creation completed
+[15-Apr-2025 17:31:17 UTC] Database connection successful in Database class
+[15-Apr-2025 17:31:17 UTC] Team table exists: Yes
+[15-Apr-2025 17:31:17 UTC] Number of team members in database: 1
+[15-Apr-2025 17:31:17 UTC] Team table check/creation completed
+[15-Apr-2025 17:31:22 UTC] Database connection successful in Database class
+[15-Apr-2025 17:31:22 UTC] Team table exists: Yes
+[15-Apr-2025 17:31:22 UTC] Number of team members in database: 1
+[15-Apr-2025 17:31:22 UTC] Team table check/creation completed
+[15-Apr-2025 17:31:37 UTC] Database connection successful in Database class
+[15-Apr-2025 17:31:37 UTC] Team table exists: Yes
+[15-Apr-2025 17:31:37 UTC] Number of team members in database: 1
+[15-Apr-2025 17:31:37 UTC] Team table check/creation completed
+[15-Apr-2025 17:31:39 UTC] Database connection successful in Database class
+[15-Apr-2025 17:31:39 UTC] Team table exists: Yes
+[15-Apr-2025 17:31:39 UTC] Number of team members in database: 1
+[15-Apr-2025 17:31:39 UTC] Team table check/creation completed
+[15-Apr-2025 17:31:47 UTC] Database connection successful in Database class
+[15-Apr-2025 17:31:47 UTC] Team table exists: Yes
+[15-Apr-2025 17:31:47 UTC] Number of team members in database: 1
+[15-Apr-2025 17:31:47 UTC] Team table check/creation completed
+[15-Apr-2025 17:59:56 UTC] Database connection successful in Database class
+[15-Apr-2025 17:59:56 UTC] Team table exists: Yes
+[15-Apr-2025 17:59:56 UTC] Number of team members in database: 1
+[15-Apr-2025 17:59:56 UTC] Team table check/creation completed
+[15-Apr-2025 17:59:56 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 17:59:56 UTC] Found 1 team members
+[15-Apr-2025 17:59:56 UTC] Team members count: 1
+[15-Apr-2025 17:59:56 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:59:56 UTC] Team members table exists: Yes
+[15-Apr-2025 17:59:58 UTC] Database connection successful in Database class
+[15-Apr-2025 17:59:58 UTC] Team table exists: Yes
+[15-Apr-2025 17:59:58 UTC] Number of team members in database: 1
+[15-Apr-2025 17:59:58 UTC] Team table check/creation completed
+[15-Apr-2025 17:59:58 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 17:59:58 UTC] Found 1 team members
+[15-Apr-2025 17:59:58 UTC] Team members count: 1
+[15-Apr-2025 17:59:58 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => Believe
+            [position] => Project Manager
+            [bio] => cccc
+            [image] => uploads/team/67fe95a6bb14b_1744737702.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 1
+            [is_active] => 1
+            [created_at] => 2025-04-15 17:21:42
+            [updated_at] => 2025-04-15 17:21:42
+        )
+
+)
+
+[15-Apr-2025 17:59:58 UTC] Team members table exists: Yes
+[15-Apr-2025 18:00:06 UTC] Database connection successful in Database class
+[15-Apr-2025 18:00:06 UTC] Team table exists: Yes
+[15-Apr-2025 18:00:06 UTC] Number of team members in database: 1
+[15-Apr-2025 18:00:06 UTC] Team table check/creation completed
+[15-Apr-2025 18:00:07 UTC] Database connection successful in Database class
+[15-Apr-2025 18:00:07 UTC] Team table exists: Yes
+[15-Apr-2025 18:00:07 UTC] Number of team members in database: 1
+[15-Apr-2025 18:00:07 UTC] Team table check/creation completed
+[15-Apr-2025 18:00:07 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 18:00:07 UTC] Found 0 team members
+[15-Apr-2025 18:00:07 UTC] Team members count: 0
+[15-Apr-2025 18:00:07 UTC] Team members data: Array
+(
+)
+
+[15-Apr-2025 18:00:07 UTC] Team members table exists: Yes
+[15-Apr-2025 18:00:14 UTC] Database connection successful in Database class
+[15-Apr-2025 18:00:14 UTC] Team table exists: Yes
+[15-Apr-2025 18:00:14 UTC] Number of team members in database: 1
+[15-Apr-2025 18:00:14 UTC] Team table check/creation completed
+[15-Apr-2025 18:00:14 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 18:00:14 UTC] Found 0 team members
+[15-Apr-2025 18:00:14 UTC] Team members count: 0
+[15-Apr-2025 18:00:14 UTC] Team members data: Array
+(
+)
+
+[15-Apr-2025 18:00:14 UTC] Team members table exists: Yes
+[15-Apr-2025 18:00:16 UTC] Database connection successful in Database class
+[15-Apr-2025 18:00:16 UTC] Team table exists: Yes
+[15-Apr-2025 18:00:16 UTC] Number of team members in database: 1
+[15-Apr-2025 18:00:16 UTC] Team table check/creation completed
+[15-Apr-2025 18:00:16 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[15-Apr-2025 18:00:16 UTC] Found 0 team members
+[15-Apr-2025 18:00:16 UTC] Team members count: 0
+[15-Apr-2025 18:00:16 UTC] Team members data: Array
+(
+)
+
+[15-Apr-2025 18:00:16 UTC] Team members table exists: Yes
+[15-Apr-2025 18:00:23 UTC] Database connection successful in config.php
+[15-Apr-2025 18:00:23 UTC] About page team members count: 0
+[15-Apr-2025 18:00:23 UTC] About page team members data: Array
+(
+)
+
+[15-Apr-2025 18:00:23 UTC] Database connection successful in Database class
+[15-Apr-2025 18:00:23 UTC] Team table exists: Yes
+[15-Apr-2025 18:00:23 UTC] Number of team members in database: 1
+[15-Apr-2025 18:00:23 UTC] Team table check/creation completed
+[15-Apr-2025 18:00:30 UTC] Database connection successful in Database class
+[15-Apr-2025 18:00:30 UTC] Team table exists: Yes
+[15-Apr-2025 18:00:30 UTC] Number of team members in database: 1
+[15-Apr-2025 18:00:30 UTC] Team table check/creation completed
+[15-Apr-2025 18:06:21 UTC] Database connection successful in Database class
+[15-Apr-2025 18:06:21 UTC] Team table exists: Yes
+[15-Apr-2025 18:06:21 UTC] Number of team members in database: 1
+[15-Apr-2025 18:06:21 UTC] Team table check/creation completed
+[15-Apr-2025 18:06:37 UTC] Database connection successful in Database class
+[15-Apr-2025 18:06:37 UTC] Team table exists: Yes
+[15-Apr-2025 18:06:37 UTC] Number of team members in database: 1
+[15-Apr-2025 18:06:37 UTC] Team table check/creation completed
+[15-Apr-2025 18:06:49 UTC] Database connection successful in Database class
+[15-Apr-2025 18:06:49 UTC] Team table exists: Yes
+[15-Apr-2025 18:06:49 UTC] Number of team members in database: 1
+[15-Apr-2025 18:06:49 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:01 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:01 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:01 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:01 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:05 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:05 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:05 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:05 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:16 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:16 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:16 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:16 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:21 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:21 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:21 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:21 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:32 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:32 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:32 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:32 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:35 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:35 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:35 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:35 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:38 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:38 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:38 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:38 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:48 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:48 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:48 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:48 UTC] Team table check/creation completed
+[15-Apr-2025 18:07:55 UTC] Database connection successful in Database class
+[15-Apr-2025 18:07:55 UTC] Team table exists: Yes
+[15-Apr-2025 18:07:55 UTC] Number of team members in database: 1
+[15-Apr-2025 18:07:55 UTC] Team table check/creation completed
+[15-Apr-2025 18:08:00 UTC] Database connection successful in Database class
+[15-Apr-2025 18:08:00 UTC] Team table exists: Yes
+[15-Apr-2025 18:08:00 UTC] Number of team members in database: 1
+[15-Apr-2025 18:08:00 UTC] Team table check/creation completed
+[15-Apr-2025 18:08:02 UTC] Database connection successful in config.php
+[15-Apr-2025 18:12:00 UTC] Database connection successful in Database class
+[15-Apr-2025 18:12:00 UTC] Team table exists: Yes
+[15-Apr-2025 18:12:00 UTC] Number of team members in database: 1
+[15-Apr-2025 18:12:00 UTC] Team table check/creation completed
+[15-Apr-2025 18:12:02 UTC] Database connection successful in Database class
+[15-Apr-2025 18:12:02 UTC] Team table exists: Yes
+[15-Apr-2025 18:12:02 UTC] Number of team members in database: 1
+[15-Apr-2025 18:12:02 UTC] Team table check/creation completed
+[15-Apr-2025 18:12:26 UTC] Database connection successful in Database class
+[15-Apr-2025 18:12:26 UTC] Team table exists: Yes
+[15-Apr-2025 18:12:26 UTC] Number of team members in database: 1
+[15-Apr-2025 18:12:26 UTC] Team table check/creation completed
+[15-Apr-2025 18:12:34 UTC] Database connection successful in Database class
+[15-Apr-2025 18:12:34 UTC] Team table exists: Yes
+[15-Apr-2025 18:12:34 UTC] Number of team members in database: 1
+[15-Apr-2025 18:12:34 UTC] Team table check/creation completed
+[15-Apr-2025 18:12:40 UTC] Database connection successful in Database class
+[15-Apr-2025 18:12:40 UTC] Team table exists: Yes
+[15-Apr-2025 18:12:40 UTC] Number of team members in database: 1
+[15-Apr-2025 18:12:40 UTC] Team table check/creation completed
+[15-Apr-2025 18:13:03 UTC] Database connection successful in config.php
+[15-Apr-2025 18:13:03 UTC] Database connection successful in Database class
+[15-Apr-2025 18:13:03 UTC] Team table exists: Yes
+[15-Apr-2025 18:13:03 UTC] Number of team members in database: 1
+[15-Apr-2025 18:13:03 UTC] Team table check/creation completed
+[15-Apr-2025 18:13:51 UTC] Database connection successful in Database class
+[15-Apr-2025 18:13:51 UTC] Team table exists: Yes
+[15-Apr-2025 18:13:51 UTC] Number of team members in database: 1
+[15-Apr-2025 18:13:51 UTC] Team table check/creation completed
+[15-Apr-2025 18:19:46 UTC] Database connection successful in Database class
+[15-Apr-2025 18:19:46 UTC] Team table exists: Yes
+[15-Apr-2025 18:19:46 UTC] Number of team members in database: 1
+[15-Apr-2025 18:19:46 UTC] Team table check/creation completed
+[15-Apr-2025 18:19:47 UTC] Database connection successful in Database class
+[15-Apr-2025 18:19:47 UTC] Team table exists: Yes
+[15-Apr-2025 18:19:47 UTC] Number of team members in database: 1
+[15-Apr-2025 18:19:47 UTC] Team table check/creation completed
+[15-Apr-2025 18:24:38 UTC] Database connection successful in Database class
+[15-Apr-2025 18:24:38 UTC] Team table exists: Yes
+[15-Apr-2025 18:24:38 UTC] Number of team members in database: 1
+[15-Apr-2025 18:24:38 UTC] Team table check/creation completed
+[15-Apr-2025 18:25:24 UTC] Database connection successful in Database class
+[15-Apr-2025 18:25:24 UTC] Team table exists: Yes
+[15-Apr-2025 18:25:24 UTC] Number of team members in database: 1
+[15-Apr-2025 18:25:24 UTC] Team table check/creation completed
+[15-Apr-2025 18:25:31 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\BeliveTeckk1\config\database.php on line 2
+[15-Apr-2025 18:25:48 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\BeliveTeckk1\config\database.php on line 2
+[15-Apr-2025 18:26:48 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1\classes/../config/Database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\classes\Model.php on line 2
+[15-Apr-2025 18:26:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1\classes/../config/Database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\classes\Model.php:2
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\config\config.php(48): require_once()
+#1 C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php(8): {closure}('Model')
+#2 C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Model.php on line 2
+[15-Apr-2025 18:27:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Admin::__construct(), 0 passed in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php on line 14 and exactly 1 expected in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php:22
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php(14): Admin->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php on line 22
+[15-Apr-2025 18:27:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Admin::__construct(), 0 passed in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php on line 14 and exactly 1 expected in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php:22
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php(14): Admin->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php on line 22
+[15-Apr-2025 18:28:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetchAll() in C:\xampp\htdocs\BeliveTeckk1\classes\ActivityLogger.php:85
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php(39): ActivityLogger->getActivityLogs(Array, 50, 0)
+#1 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\ActivityLogger.php on line 85
+[15-Apr-2025 18:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::getAllAdmins() in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php:42
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php on line 42
+[15-Apr-2025 18:29:16 UTC] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php on line 55
+[15-Apr-2025 18:29:16 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php on line 55
+[15-Apr-2025 18:34:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::getTotalBlogPosts() in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php:31
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 31
+[15-Apr-2025 18:40:12 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1\admin/../classes/Database.php)): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\settings.php on line 10
+[15-Apr-2025 18:40:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1\admin/../classes/Database.php)' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\settings.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\settings.php on line 10
+[15-Apr-2025 18:45:08 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1\admin../classes/Admin.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\applications.php on line 20
+[15-Apr-2025 18:45:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1\admin../classes/Admin.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\applications.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\applications.php on line 20
+[15-Apr-2025 18:46:37 UTC] PHP Parse error:  syntax error, unexpected identifier "DOMContentLoaded" in C:\xampp\htdocs\BeliveTeckk1\includes\editor.php on line 45
+[15-Apr-2025 18:48:03 UTC] PHP Parse error:  syntax error, unexpected identifier "DOMContentLoaded" in C:\xampp\htdocs\BeliveTeckk1\includes\editor.php on line 45
+[15-Apr-2025 18:49:42 UTC] PHP Parse error:  syntax error, unexpected identifier "DOMContentLoaded" in C:\xampp\htdocs\BeliveTeckk1\includes\editor.php on line 45
+[15-Apr-2025 18:49:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function initTinyMCE() in C:\xampp\htdocs\BeliveTeckk1\admin\contact.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\contact.php on line 66
+[15-Apr-2025 19:07:24 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1\admin/classes/Database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\services.php on line 11
+[15-Apr-2025 19:07:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1\admin/classes/Database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\services.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\services.php on line 11
+[15-Apr-2025 19:09:54 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1\admin..//classes/Database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\services.php on line 11
+[15-Apr-2025 19:09:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1\admin..//classes/Database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\services.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\services.php on line 11
+[15-Apr-2025 19:10:09 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1\admin/includes/validation.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\services.php on line 14
+[15-Apr-2025 19:10:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1\admin/includes/validation.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\services.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\services.php on line 14
+[2025-04-15 19:11:32] ERROR: editor.php not loaded properly 
+[15-Apr-2025 19:12:19 UTC] Services fetched: 7
+[15-Apr-2025 19:14:51 UTC] Services fetched: 7
+[15-Apr-2025 19:15:06 UTC] Services fetched: 7
+[15-Apr-2025 19:19:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method FileUploader::uploadFile() in C:\xampp\htdocs\BeliveTeckk1\admin\newsletter-campaigns.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\newsletter-campaigns.php on line 48
+[15-Apr-2025 19:19:27 UTC] PHP Warning:  Undefined variable $sendCampaign in C:\xampp\htdocs\BeliveTeckk1\admin\newsletter-campaigns.php on line 133
+[15-Apr-2025 19:19:27 UTC] PHP Deprecated:  Creation of dynamic property NewsletterEmail::$ is deprecated in C:\xampp\htdocs\BeliveTeckk1\admin\newsletter-campaigns.php on line 133
+[15-Apr-2025 19:24:45 UTC] PHP Warning:  Undefined variable $sendCampaign in C:\xampp\htdocs\BeliveTeckk1\admin\newsletter-campaigns.php on line 131
+[15-Apr-2025 19:24:45 UTC] PHP Deprecated:  Creation of dynamic property NewsletterEmail::$ is deprecated in C:\xampp\htdocs\BeliveTeckk1\admin\newsletter-campaigns.php on line 131
+[15-Apr-2025 19:25:43 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\BeliveTeckk1\admin\newsletter-campaigns.php:54
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\newsletter-campaigns.php on line 54
+[15-Apr-2025 19:27:16 UTC] Database connection successful in config.php
+[15-Apr-2025 19:29:10 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1/../classes/Database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\careers.php on line 3
+[15-Apr-2025 19:29:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1/../classes/Database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\careers.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\careers.php on line 3
+[15-Apr-2025 19:30:20 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1/../classes/Database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\contact.php on line 7
+[15-Apr-2025 19:30:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1/../classes/Database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\contact.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\contact.php on line 7
+[15-Apr-2025 19:32:09 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1/..classes/Admin.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\training.php on line 4
+[15-Apr-2025 19:32:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1/..classes/Admin.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\training.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\training.php on line 4
+[15-Apr-2025 19:32:40 UTC] Database connection successful in config.php
+[15-Apr-2025 19:33:29 UTC] Database connection successful in config.php
+[15-Apr-2025 19:36:27 UTC] Database connection successful in config.php
+[15-Apr-2025 19:38:21 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[15-Apr-2025 19:38:21 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[15-Apr-2025 19:38:21 UTC] Admin login successful: admin1@believeteckk.com from IP: ::1
+[15-Apr-2025 19:42:55 UTC] PHP Warning:  require_once(../includes/editor.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\training.php on line 13
+[15-Apr-2025 19:42:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/editor.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\training.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\training.php on line 13
+[16-Apr-2025 18:19:45 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[16-Apr-2025 18:19:46 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[16-Apr-2025 18:19:46 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[16-Apr-2025 18:25:57 UTC] PHP Warning:  Undefined variable $activityLogger in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php on line 16
+[16-Apr-2025 18:25:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getActivityLogs() on null in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\activity-logs.php on line 16
+[16-Apr-2025 18:29:44 UTC] PHP Warning:  require_once(../includes/editor.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\about.php on line 13
+[16-Apr-2025 18:29:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/editor.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\about.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\about.php on line 13
+[16-Apr-2025 18:30:48 UTC] Services fetched: 7
+[16-Apr-2025 18:30:52 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1\admin/../classes/Database.php)): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\team.php on line 10
+[16-Apr-2025 18:30:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1\admin/../classes/Database.php)' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\team.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\team.php on line 10
+[16-Apr-2025 18:32:18 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[16-Apr-2025 18:32:18 UTC] Found 0 team members
+[16-Apr-2025 18:32:18 UTC] Team members count: 0
+[16-Apr-2025 18:32:18 UTC] Team members data: Array
+(
+)
+
+[16-Apr-2025 18:32:18 UTC] Team members table exists: Yes
+[16-Apr-2025 18:32:19 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[16-Apr-2025 18:32:19 UTC] Found 0 team members
+[16-Apr-2025 18:32:19 UTC] Team members count: 0
+[16-Apr-2025 18:32:19 UTC] Team members data: Array
+(
+)
+
+[16-Apr-2025 18:32:19 UTC] Team members table exists: Yes
+[16-Apr-2025 18:32:19 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[16-Apr-2025 18:32:19 UTC] Found 0 team members
+[16-Apr-2025 18:32:19 UTC] Team members count: 0
+[16-Apr-2025 18:32:19 UTC] Team members data: Array
+(
+)
+
+[16-Apr-2025 18:32:19 UTC] Team members table exists: Yes
+[16-Apr-2025 18:33:21 UTC] Database connection successful in config.php
+[17-Apr-2025 17:14:04 UTC] Database connection successful in config.php
+[17-Apr-2025 17:14:31 UTC] Database connection successful in config.php
+[17-Apr-2025 17:14:31 UTC] About page team members count: 0
+[17-Apr-2025 17:14:31 UTC] About page team members data: Array
+(
+)
+
+[17-Apr-2025 17:14:43 UTC] Database connection successful in config.php
+[17-Apr-2025 17:18:46 UTC] PHP Warning:  require_once(C:\xampp\htdocs\BeliveTeckk1/../classes/JobApplication.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\apply.php on line 5
+[17-Apr-2025 17:18:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\BeliveTeckk1/../classes/JobApplication.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\apply.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\apply.php on line 5
+[17-Apr-2025 17:19:50 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[17-Apr-2025 17:19:50 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[17-Apr-2025 17:19:50 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[17-Apr-2025 17:20:12 UTC] Services fetched: 7
+[17-Apr-2025 17:23:42 UTC] Services fetched: 7
+[17-Apr-2025 17:24:00 UTC] Services fetched: 7
+[17-Apr-2025 17:25:23 UTC] Services fetched: 7
+[17-Apr-2025 17:26:06 UTC] Services fetched: 7
+[17-Apr-2025 17:26:46 UTC] Services fetched: 7
+[17-Apr-2025 17:28:38 UTC] Services fetched: 7
+[17-Apr-2025 17:28:45 UTC] POST data received: Array
+(
+    [action] => add_service
+    [title] => Data Analystics
+    [icon] => <i class="fas fa-analytics"></i>
+    [description] => Data analytics can do much more than point out bottlenecks in production. Gaming companies use data analytics to set reward schedules for players that keep the majority of players active in the game.
+
+
+)
+
+[17-Apr-2025 17:28:45 UTC] Error in service action: Invalid CSRF token
+[2025-04-17 17:28:45] ERROR: Invalid CSRF token {"action":"add_service"}
+[17-Apr-2025 17:28:45 UTC] Services fetched: 7
+[17-Apr-2025 17:29:35 UTC] POST data received: Array
+(
+    [action] => add_service
+    [title] => Data Analystics
+    [icon] => <i class="fas fa-analytics"></i>
+    [description] => Data analytics can do much more than point out bottlenecks in production. Gaming companies use data analytics to set reward schedules for players that keep the majority of players active in the game.
+
+
+)
+
+[17-Apr-2025 17:29:35 UTC] Adding service: Array
+(
+    [action] => add_service
+    [title] => Data Analystics
+    [icon] => <i class="fas fa-analytics"></i>
+    [description] => Data analytics can do much more than point out bottlenecks in production. Gaming companies use data analytics to set reward schedules for players that keep the majority of players active in the game.
+
+
+)
+
+[17-Apr-2025 17:29:35 UTC] Add service result: success
+[17-Apr-2025 17:29:35 UTC] Services fetched: 8
+[17-Apr-2025 17:30:02 UTC] POST data received: Array
+(
+    [action] => update_service
+    [id] => 8
+    [title] => Data Analystics
+    [icon] => class="fas fa-analytics
+    [description] => Data analytics can do much more than point out bottlenecks in production. Gaming companies use data analytics to set reward schedules for players that keep the majority of players active in the game.
+
+
+)
+
+[17-Apr-2025 17:30:02 UTC] Updating service: Array
+(
+    [action] => update_service
+    [id] => 8
+    [title] => Data Analystics
+    [icon] => class="fas fa-analytics
+    [description] => Data analytics can do much more than point out bottlenecks in production. Gaming companies use data analytics to set reward schedules for players that keep the majority of players active in the game.
+
+
+)
+
+[17-Apr-2025 17:30:02 UTC] Update service result: success
+[17-Apr-2025 17:30:02 UTC] Services fetched: 8
+[17-Apr-2025 17:30:15 UTC] POST data received: Array
+(
+    [action] => update_service
+    [id] => 8
+    [title] => Data Analystics
+    [icon] => fas fa-analytics
+    [description] => Data analytics can do much more than point out bottlenecks in production. Gaming companies use data analytics to set reward schedules for players that keep the majority of players active in the game.
+
+
+)
+
+[17-Apr-2025 17:30:15 UTC] Updating service: Array
+(
+    [action] => update_service
+    [id] => 8
+    [title] => Data Analystics
+    [icon] => fas fa-analytics
+    [description] => Data analytics can do much more than point out bottlenecks in production. Gaming companies use data analytics to set reward schedules for players that keep the majority of players active in the game.
+
+
+)
+
+[17-Apr-2025 17:30:15 UTC] Update service result: success
+[17-Apr-2025 17:30:15 UTC] Services fetched: 8
+[17-Apr-2025 17:35:02 UTC] POST data received: Array
+(
+    [action] => update_service
+    [id] => 8
+    [title] => Data Analystics
+    [icon] => fa-solid fa-user-secret
+    [description] => A Data Analyst is a professional who collects and analyzes data across the business to make informed decisions or assist other team members and leadership in making sound decisions.
+)
+
+[17-Apr-2025 17:35:02 UTC] Updating service: Array
+(
+    [action] => update_service
+    [id] => 8
+    [title] => Data Analystics
+    [icon] => fa-solid fa-user-secret
+    [description] => A Data Analyst is a professional who collects and analyzes data across the business to make informed decisions or assist other team members and leadership in making sound decisions.
+)
+
+[17-Apr-2025 17:35:02 UTC] Update service result: success
+[17-Apr-2025 17:35:02 UTC] Services fetched: 8
+[17-Apr-2025 17:35:20 UTC] Database connection successful in config.php
+[17-Apr-2025 17:36:29 UTC] Database connection successful in config.php
+[21-Apr-2025 01:35:36 UTC] Database connection successful in config.php
+[21-Apr-2025 01:37:39 UTC] Database connection successful in config.php
+[21-Apr-2025 01:37:39 UTC] About page team members count: 0
+[21-Apr-2025 01:37:39 UTC] About page team members data: Array
+(
+)
+
+[29-Apr-2025 14:02:43 UTC] Database connection successful in config.php
+[29-Apr-2025 14:04:24 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[29-Apr-2025 14:04:24 UTC] Increment login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[29-Apr-2025 14:04:24 UTC] Admin login failed: Invalid email or password from IP: ::1
+[29-Apr-2025 14:04:46 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[29-Apr-2025 14:04:46 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[29-Apr-2025 14:04:46 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[29-Apr-2025 14:05:35 UTC] Database connection successful in config.php
+[29-Apr-2025 14:11:23 UTC] Database connection successful in config.php
+[29-Apr-2025 14:14:29 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[29-Apr-2025 14:14:29 UTC] Found 0 team members
+[29-Apr-2025 14:14:29 UTC] Team members count: 0
+[29-Apr-2025 14:14:29 UTC] Team members data: Array
+(
+)
+
+[29-Apr-2025 14:14:29 UTC] Team members table exists: Yes
+[29-Apr-2025 14:14:31 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[29-Apr-2025 14:14:31 UTC] Found 0 team members
+[29-Apr-2025 14:14:31 UTC] Team members count: 0
+[29-Apr-2025 14:14:31 UTC] Team members data: Array
+(
+)
+
+[29-Apr-2025 14:14:31 UTC] Team members table exists: Yes
+[29-Apr-2025 14:29:24 UTC] Adding team member: {"name":"Danso","position":"Project Manager","bio":"ffffff...","image":"","linkedin_url":"","twitter_url":"","order_index":0}
+[29-Apr-2025 14:29:24 UTC] Successfully added team member with ID: 5
+[29-Apr-2025 14:29:24 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[29-Apr-2025 14:29:24 UTC] Found 1 team members
+[29-Apr-2025 14:29:24 UTC] Team members count: 1
+[29-Apr-2025 14:29:24 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => 
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 14:29:24
+        )
+
+)
+
+[29-Apr-2025 14:29:24 UTC] Team members table exists: Yes
+[29-Apr-2025 14:29:24 UTC] Database connection successful in config.php
+[29-Apr-2025 14:29:26 UTC] Database connection successful in config.php
+[29-Apr-2025 14:29:26 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[29-Apr-2025 14:29:26 UTC] Found 1 team members
+[29-Apr-2025 14:29:26 UTC] Team members count: 1
+[29-Apr-2025 14:29:26 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => 
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 14:29:24
+        )
+
+)
+
+[29-Apr-2025 14:29:26 UTC] Team members table exists: Yes
+[29-Apr-2025 14:29:37 UTC] Database connection successful in config.php
+[29-Apr-2025 14:29:40 UTC] Database connection successful in config.php
+[29-Apr-2025 14:29:40 UTC] About page team members count: 1
+[29-Apr-2025 14:29:41 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => 
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 14:29:24
+        )
+
+)
+
+[29-Apr-2025 14:29:42 UTC] Database connection successful in config.php
+[29-Apr-2025 14:29:42 UTC] About page team members count: 1
+[29-Apr-2025 14:29:42 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => 
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 14:29:24
+        )
+
+)
+
+[29-Apr-2025 14:30:28 UTC] Database connection successful in config.php
+[29-Apr-2025 21:11:24 UTC] Database connection successful in config.php
+[29-Apr-2025 21:11:27 UTC] Database connection successful in config.php
+[29-Apr-2025 21:13:08 UTC] Database connection successful in config.php
+[29-Apr-2025 21:13:36 UTC] Database connection successful in config.php
+[29-Apr-2025 21:13:36 UTC] About page team members count: 1
+[29-Apr-2025 21:13:36 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => 
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 14:29:24
+        )
+
+)
+
+[29-Apr-2025 21:13:39 UTC] Database connection successful in config.php
+[29-Apr-2025 21:13:39 UTC] About page team members count: 1
+[29-Apr-2025 21:13:39 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => 
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 14:29:24
+        )
+
+)
+
+[29-Apr-2025 21:13:56 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[29-Apr-2025 21:13:56 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[29-Apr-2025 21:13:56 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[29-Apr-2025 21:14:11 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[29-Apr-2025 21:14:11 UTC] Found 1 team members
+[29-Apr-2025 21:14:11 UTC] Team members count: 1
+[29-Apr-2025 21:14:11 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => 
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 14:29:24
+        )
+
+)
+
+[29-Apr-2025 21:14:11 UTC] Team members table exists: Yes
+[29-Apr-2025 21:14:11 UTC] Database connection successful in config.php
+[29-Apr-2025 21:14:13 UTC] Database connection successful in config.php
+[29-Apr-2025 21:14:13 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[29-Apr-2025 21:14:13 UTC] Found 1 team members
+[29-Apr-2025 21:14:13 UTC] Team members count: 1
+[29-Apr-2025 21:14:13 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => 
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 14:29:24
+        )
+
+)
+
+[29-Apr-2025 21:14:13 UTC] Team members table exists: Yes
+[29-Apr-2025 21:14:40 UTC] Updating team member ID 5 with data: {"name":"Danso","position":"Project Manager","bio":"ffffff...","image":"uploads\/team\/6811414002af2_1745961280.jpg","linkedin_url":"","twitter_url":"","order_index":0}
+[29-Apr-2025 21:14:40 UTC] Successfully updated team member ID: 5
+[29-Apr-2025 21:14:40 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[29-Apr-2025 21:14:40 UTC] Found 1 team members
+[29-Apr-2025 21:14:40 UTC] Team members count: 1
+[29-Apr-2025 21:14:40 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => uploads/team/6811414002af2_1745961280.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 21:14:40
+        )
+
+)
+
+[29-Apr-2025 21:14:40 UTC] Team members table exists: Yes
+[29-Apr-2025 21:14:47 UTC] Database connection successful in config.php
+[29-Apr-2025 21:14:50 UTC] Database connection successful in config.php
+[29-Apr-2025 21:14:50 UTC] About page team members count: 1
+[29-Apr-2025 21:14:50 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => uploads/team/6811414002af2_1745961280.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 21:14:40
+        )
+
+)
+
+[07-May-2025 14:00:14 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[07-May-2025 14:00:14 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[07-May-2025 14:00:14 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[07-May-2025 14:00:49 UTC] Database connection successful in config.php
+[07-May-2025 14:02:05 UTC] Database connection successful in config.php
+[07-May-2025 14:02:49 UTC] Database connection successful in config.php
+[07-May-2025 14:02:49 UTC] About page team members count: 1
+[07-May-2025 14:02:49 UTC] About page team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => uploads/team/6811414002af2_1745961280.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 21:14:40
+        )
+
+)
+
+[07-May-2025 14:03:39 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[07-May-2025 14:03:39 UTC] Increment login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[07-May-2025 14:03:39 UTC] Admin login failed: Invalid email or password from IP: ::1
+[07-May-2025 14:03:45 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[07-May-2025 14:03:45 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[07-May-2025 14:03:45 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[07-May-2025 14:03:53 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[07-May-2025 14:03:53 UTC] Found 1 team members
+[07-May-2025 14:03:53 UTC] Team members count: 1
+[07-May-2025 14:03:53 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => uploads/team/6811414002af2_1745961280.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 21:14:40
+        )
+
+)
+
+[07-May-2025 14:03:53 UTC] Team members table exists: Yes
+[07-May-2025 14:03:55 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[07-May-2025 14:03:55 UTC] Found 1 team members
+[07-May-2025 14:03:55 UTC] Team members count: 1
+[07-May-2025 14:03:55 UTC] Team members data: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [name] => Danso
+            [position] => Project Manager
+            [bio] => ffffff
+            [image] => uploads/team/6811414002af2_1745961280.jpg
+            [linkedin_url] => 
+            [twitter_url] => 
+            [order_index] => 0
+            [is_active] => 1
+            [created_at] => 2025-04-29 14:29:24
+            [updated_at] => 2025-04-29 21:14:40
+        )
+
+)
+
+[07-May-2025 14:03:55 UTC] Team members table exists: Yes
+[07-May-2025 14:04:35 UTC] Deleting team member ID: 5
+[07-May-2025 14:04:35 UTC] Successfully deleted team member ID: 5
+[07-May-2025 14:04:35 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[07-May-2025 14:04:35 UTC] Found 0 team members
+[07-May-2025 14:04:35 UTC] Team members count: 0
+[07-May-2025 14:04:35 UTC] Team members data: Array
+(
+)
+
+[07-May-2025 14:04:35 UTC] Team members table exists: Yes
+[07-May-2025 14:04:40 UTC] Database connection successful in config.php
+[07-May-2025 14:04:43 UTC] Database connection successful in config.php
+[07-May-2025 14:04:43 UTC] About page team members count: 0
+[07-May-2025 14:04:43 UTC] About page team members data: Array
+(
+)
+
+[07-May-2025 14:05:02 UTC] Database connection successful in config.php
+[07-May-2025 14:05:09 UTC] Database connection successful in config.php
+[07-May-2025 14:06:35 UTC] Database connection successful in config.php
+[07-May-2025 23:10:18 UTC] Database connection successful in config.php
+[07-May-2025 23:23:05 UTC] Database connection successful in config.php
+[07-May-2025 23:23:05 UTC] About page team members count: 0
+[07-May-2025 23:23:05 UTC] About page team members data: Array
+(
+)
+
+[07-May-2025 23:24:43 UTC] Database connection successful in config.php
+[08-May-2025 01:10:45 UTC] Database connection successful in config.php
+[08-May-2025 01:11:03 UTC] Database connection successful in config.php
+[08-May-2025 01:11:03 UTC] About page team members count: 0
+[08-May-2025 01:11:03 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 01:12:49 UTC] Database connection successful in config.php
+[08-May-2025 01:12:49 UTC] About page team members count: 0
+[08-May-2025 01:12:49 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 01:17:53 UTC] Database connection successful in config.php
+[08-May-2025 01:17:53 UTC] About page team members count: 0
+[08-May-2025 01:17:53 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 01:25:52 UTC] Database connection successful in config.php
+[08-May-2025 01:25:52 UTC] About page team members count: 0
+[08-May-2025 01:25:52 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 01:29:08 UTC] Database connection successful in config.php
+[08-May-2025 01:29:08 UTC] About page team members count: 0
+[08-May-2025 01:29:08 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 01:39:07 UTC] Database connection successful in config.php
+[08-May-2025 01:39:07 UTC] About page team members count: 0
+[08-May-2025 01:39:07 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 01:44:47 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[08-May-2025 01:44:47 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[08-May-2025 01:44:47 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[08-May-2025 01:45:05 UTC] Services fetched: 8
+[08-May-2025 02:07:58 UTC] Database connection successful in config.php
+[08-May-2025 02:09:11 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[08-May-2025 02:09:11 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[08-May-2025 02:09:11 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[08-May-2025 02:09:48 UTC] Database connection successful in config.php
+[08-May-2025 02:14:14 UTC] Database connection successful in config.php
+[08-May-2025 02:15:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\sitemap.php:13
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\sitemap.php(13): PDO->prepare('SELECT * FROM b...')
+#1 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\sitemap.php on line 13
+[08-May-2025 02:23:34 UTC] Database connection successful in config.php
+[08-May-2025 02:26:19 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 84
+[08-May-2025 02:26:19 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 84
+[08-May-2025 02:26:19 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 89
+[08-May-2025 02:26:19 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 89
+[08-May-2025 02:26:19 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 02:26:19 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 02:26:35 UTC] Database connection successful in config.php
+[08-May-2025 02:28:41 UTC] Database connection successful in config.php
+[08-May-2025 02:28:49 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 84
+[08-May-2025 02:28:49 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 84
+[08-May-2025 02:28:49 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 89
+[08-May-2025 02:28:49 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 89
+[08-May-2025 02:28:49 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 02:28:49 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 02:29:01 UTC] Database connection successful in config.php
+[08-May-2025 02:35:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 84
+[08-May-2025 02:35:15 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 84
+[08-May-2025 02:35:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 91
+[08-May-2025 02:35:15 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 91
+[08-May-2025 02:35:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 98
+[08-May-2025 02:35:15 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 98
+[08-May-2025 02:35:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 105
+[08-May-2025 02:35:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 112
+[08-May-2025 02:47:12 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 191
+[08-May-2025 02:47:12 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 191
+[08-May-2025 02:53:15 UTC] Database connection successful in config.php
+[08-May-2025 03:10:16 UTC] Database connection successful in config.php
+[08-May-2025 03:18:00 UTC] Database connection successful in config.php
+[08-May-2025 03:40:43 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 84
+[08-May-2025 03:40:43 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 84
+[08-May-2025 03:40:43 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 89
+[08-May-2025 03:40:43 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 89
+[08-May-2025 03:40:43 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 03:40:43 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 03:43:21 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 03:43:21 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 03:43:21 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 03:43:21 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 03:43:21 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 03:43:21 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 03:43:21 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 112
+[08-May-2025 03:43:21 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 03:43:21 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 13:34:45 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 13:34:45 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 13:34:45 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 13:34:45 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 13:34:45 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 13:34:45 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 13:34:45 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 112
+[08-May-2025 13:34:45 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 13:34:45 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 13:35:00 UTC] Database connection successful in config.php
+[08-May-2025 13:37:05 UTC] Database connection successful in config.php
+[08-May-2025 13:37:05 UTC] About page team members count: 0
+[08-May-2025 13:37:05 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:25 UTC] Database connection successful in config.php
+[08-May-2025 13:37:25 UTC] About page team members count: 0
+[08-May-2025 13:37:25 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:26 UTC] Database connection successful in config.php
+[08-May-2025 13:37:26 UTC] About page team members count: 0
+[08-May-2025 13:37:26 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:26 UTC] Database connection successful in config.php
+[08-May-2025 13:37:26 UTC] About page team members count: 0
+[08-May-2025 13:37:26 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:26 UTC] Database connection successful in config.php
+[08-May-2025 13:37:26 UTC] About page team members count: 0
+[08-May-2025 13:37:26 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:26 UTC] Database connection successful in config.php
+[08-May-2025 13:37:26 UTC] About page team members count: 0
+[08-May-2025 13:37:26 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:27 UTC] Database connection successful in config.php
+[08-May-2025 13:37:27 UTC] About page team members count: 0
+[08-May-2025 13:37:27 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:27 UTC] Database connection successful in config.php
+[08-May-2025 13:37:27 UTC] About page team members count: 0
+[08-May-2025 13:37:27 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:27 UTC] Database connection successful in config.php
+[08-May-2025 13:37:27 UTC] About page team members count: 0
+[08-May-2025 13:37:27 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:27 UTC] Database connection successful in config.php
+[08-May-2025 13:37:27 UTC] About page team members count: 0
+[08-May-2025 13:37:27 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:28 UTC] Database connection successful in config.php
+[08-May-2025 13:37:28 UTC] About page team members count: 0
+[08-May-2025 13:37:28 UTC] About page team members data: Array
+(
+)
+
+[08-May-2025 13:37:50 UTC] Database connection successful in config.php
+[08-May-2025 13:38:10 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[08-May-2025 13:38:10 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[08-May-2025 13:38:10 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[08-May-2025 13:47:02 UTC] Database connection successful in config.php
+[08-May-2025 13:47:16 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 13:47:16 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 13:47:16 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 13:47:16 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 13:47:16 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 13:47:16 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 13:47:16 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 112
+[08-May-2025 13:47:16 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 13:47:16 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 13:55:01 UTC] Database connection successful in config.php
+[08-May-2025 14:01:09 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:01:09 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:01:09 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 14:01:09 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 14:01:09 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 14:01:09 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 14:01:09 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 112
+[08-May-2025 14:01:09 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 14:01:09 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 14:01:34 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:01:34 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:01:34 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 14:01:34 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 14:01:34 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 14:01:34 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 14:01:34 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 112
+[08-May-2025 14:01:34 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 14:01:34 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 14:02:27 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:02:27 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:02:27 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 14:02:27 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 14:02:27 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 14:02:27 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 14:02:27 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 112
+[08-May-2025 14:02:27 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 14:02:27 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 153
+[08-May-2025 14:05:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:05:15 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:05:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 14:05:15 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 100
+[08-May-2025 14:05:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 14:05:15 UTC] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 106
+[08-May-2025 14:05:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 112
+[08-May-2025 14:05:15 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 118
+[08-May-2025 14:05:15 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 158
+[08-May-2025 14:05:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 158
+[08-May-2025 14:07:10 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:07:10 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 134
+[08-May-2025 14:07:10 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 134
+[08-May-2025 14:08:50 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:08:50 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 134
+[08-May-2025 14:08:50 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 134
+[08-May-2025 14:09:00 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:09:00 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 134
+[08-May-2025 14:09:00 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 134
+[08-May-2025 14:09:02 UTC] PHP Warning:  Undefined variable $currentUrl in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 94
+[08-May-2025 14:09:02 UTC] PHP Warning:  Undefined variable $related_posts in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 134
+[08-May-2025 14:09:02 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\BeliveTeckk1\blog-post.php on line 134
+[08-May-2025 14:17:04 UTC] Database connection successful in config.php
+[08-May-2025 14:27:18 UTC] Database connection successful in config.php
+[08-May-2025 15:59:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:32
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(32): PDO->prepare('SELECT * FROM c...')
+#1 C:\xampp\htdocs\BeliveTeckk1\courses.php(10): Course->getPublishedCourses()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 32
+[08-May-2025 16:16:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 8
+[08-May-2025 16:16:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:32
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(32): PDO->prepare('SELECT * FROM c...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php(37): Course->getPublishedCourses()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 32
+[08-May-2025 17:09:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 8
+[08-May-2025 17:09:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:32
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(32): PDO->prepare('SELECT * FROM c...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php(37): Course->getPublishedCourses()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 32
+[08-May-2025 17:09:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:32
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(32): PDO->prepare('SELECT * FROM c...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php(36): Course->getPublishedCourses()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 32
+[08-May-2025 17:10:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:32
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(32): PDO->prepare('SELECT * FROM c...')
+#1 C:\xampp\htdocs\BeliveTeckk1\courses.php(10): Course->getPublishedCourses()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 32
+[08-May-2025 17:17:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:32
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(32): PDO->prepare('SELECT * FROM c...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php(36): Course->getPublishedCourses()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 32
+[08-May-2025 17:17:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:32
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(32): PDO->prepare('SELECT * FROM c...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php(36): Course->getPublishedCourses()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 32
+[08-May-2025 17:17:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:32
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(32): PDO->prepare('SELECT * FROM c...')
+#1 C:\xampp\htdocs\BeliveTeckk1\courses.php(10): Course->getPublishedCourses()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 32
+[08-May-2025 17:22:13 UTC] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 40
+[08-May-2025 17:22:13 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 40
+[08-May-2025 17:22:13 UTC] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 195
+[08-May-2025 17:22:13 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 195
+[08-May-2025 17:22:57 UTC] Database connection successful in config.php
+[08-May-2025 17:34:51 UTC] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 258
+[08-May-2025 17:34:51 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 258
+[08-May-2025 17:40:42 UTC] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 273
+[08-May-2025 17:40:42 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 273
+[08-May-2025 17:44:52 UTC] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 273
+[08-May-2025 17:44:52 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php on line 273
+[08-May-2025 17:54:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'thumbnail' in 'field list' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:12
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(12): PDO->prepare('INSERT INTO cou...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php(21): Course->createCourse(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 12
+[08-May-2025 17:56:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:12
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(12): PDO->prepare('INSERT INTO cou...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\manage-courses.php(21): Course->createCourse(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 12
+[08-May-2025 17:56:54 UTC] Database connection successful in config.php
+[08-May-2025 17:58:20 UTC] Database connection successful in config.php
+[08-May-2025 18:03:57 UTC] PHP Warning:  require_once(classes/User.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:03:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'classes/User.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\enroll.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:04:13 UTC] PHP Warning:  require_once(classes/User.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:04:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'classes/User.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\enroll.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:13:58 UTC] PHP Warning:  require_once(classes/User.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:13:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'classes/User.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\enroll.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:43:27 UTC] PHP Warning:  require_once(classes/User.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:43:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'classes/User.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\enroll.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:48:56 UTC] PHP Warning:  require_once(classes/Students.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:48:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'classes/Students.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\enroll.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 5
+[08-May-2025 18:49:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 9
+[08-May-2025 18:49:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:49:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\register.php on line 6
+[08-May-2025 18:49:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:49:36 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\register.php on line 6
+[08-May-2025 18:49:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\register.php on line 6
+[08-May-2025 18:49:58 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:50:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:50:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:50:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\register.php on line 6
+[08-May-2025 18:50:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:50:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:50:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\dashboard.php on line 7
+[08-May-2025 18:50:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.enrolled_at' in 'field list' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:57
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(57): PDO->prepare('SELECT c.*, e.e...')
+#1 C:\xampp\htdocs\BeliveTeckk1\dashboard.php(22): Student->getEnrolledCourses(1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 57
+[08-May-2025 18:55:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 9
+[08-May-2025 18:55:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:55:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 9
+[08-May-2025 18:55:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 18:55:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 9
+[08-May-2025 18:55:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\login.php on line 6
+[08-May-2025 21:57:21 UTC] Database connection successful in config.php
+[08-May-2025 21:57:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 9
+[08-May-2025 22:00:31 UTC] Database connection successful in config.php
+[08-May-2025 22:00:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 9
+[08-May-2025 22:09:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\students\login.php on line 6
+[08-May-2025 22:10:07 UTC] PHP Warning:  include(includes/student-header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php on line 27
+[08-May-2025 22:10:07 UTC] PHP Warning:  include(): Failed opening 'includes/student-header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php on line 27
+[08-May-2025 22:10:13 UTC] PHP Warning:  include(includes/student-header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php on line 27
+[08-May-2025 22:10:13 UTC] PHP Warning:  include(): Failed opening 'includes/student-header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php on line 27
+[08-May-2025 22:12:15 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\students\login.php on line 6
+[08-May-2025 22:13:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\students\login.php on line 6
+[08-May-2025 22:15:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 6
+[08-May-2025 22:15:44 UTC] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 31
+[08-May-2025 22:15:44 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 31
+[08-May-2025 22:15:44 UTC] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 82
+[08-May-2025 22:15:44 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 82
+[08-May-2025 22:18:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 6
+[08-May-2025 22:18:26 UTC] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 31
+[08-May-2025 22:18:26 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 31
+[08-May-2025 22:18:26 UTC] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 82
+[08-May-2025 22:18:26 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\register.php on line 82
+[08-May-2025 22:20:20 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[08-May-2025 22:20:20 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[08-May-2025 22:20:28 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[08-May-2025 22:20:28 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[08-May-2025 22:20:54 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[08-May-2025 22:20:54 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[08-May-2025 22:21:01 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[08-May-2025 22:21:01 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[08-May-2025 22:39:34 UTC] Database connection successful in config.php
+[08-May-2025 22:40:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\enroll.php on line 9
+[08-May-2025 22:57:32 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\BeliveTeckk1\students\courses.php on line 109
+[08-May-2025 22:57:32 UTC] PHP Deprecated:  ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\students\courses.php on line 109
+[08-May-2025 22:57:32 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\courses.php on line 132
+[08-May-2025 22:57:32 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\courses.php on line 132
+[08-May-2025 22:58:23 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\BeliveTeckk1\students\courses.php on line 109
+[08-May-2025 22:58:23 UTC] PHP Deprecated:  ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\students\courses.php on line 109
+[08-May-2025 23:06:36 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[08-May-2025 23:06:36 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[08-May-2025 23:06:36 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[08-May-2025 23:27:05 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\BeliveTeckk1\students\courses.php on line 109
+[08-May-2025 23:27:05 UTC] PHP Deprecated:  ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\students\courses.php on line 109
+[08-May-2025 23:50:53 UTC] PHP Warning:  include(../includes/student_header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 68
+[08-May-2025 23:50:53 UTC] PHP Warning:  include(): Failed opening '../includes/student_header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 68
+[08-May-2025 23:50:53 UTC] PHP Warning:  include(../includes/student_footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 181
+[08-May-2025 23:50:53 UTC] PHP Warning:  include(): Failed opening '../includes/student_footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 181
+[09-May-2025 00:03:23 UTC] PHP Warning:  include(../includes/student_header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 87
+[09-May-2025 00:03:23 UTC] PHP Warning:  include(): Failed opening '../includes/student_header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 87
+[09-May-2025 00:03:23 UTC] PHP Warning:  include(../includes/student_footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 162
+[09-May-2025 00:03:23 UTC] PHP Warning:  include(): Failed opening '../includes/student_footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 162
+[09-May-2025 00:05:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::getPendingEnrollments() in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php:31
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 31
+[09-May-2025 00:24:33 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student_header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 87
+[09-May-2025 00:24:33 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student_header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 87
+[09-May-2025 00:27:25 UTC] PHP Warning:  Undefined variable $student_details in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 94
+[09-May-2025 00:27:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 94
+[09-May-2025 00:27:25 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 94
+[09-May-2025 00:27:25 UTC] PHP Warning:  Undefined variable $student_details in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 97
+[09-May-2025 00:27:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 97
+[09-May-2025 00:27:25 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 97
+[09-May-2025 00:29:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Student::getStudentById() in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php:80
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 80
+[09-May-2025 00:30:56 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 193
+[09-May-2025 00:30:56 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 193
+[09-May-2025 00:44:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.student_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php:1862
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php(1862): PDO->prepare('SELECT e.*, s.n...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php(31): Admin->getPendingEnrollments()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php on line 1862
+[09-May-2025 00:47:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.student_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php:1862
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php(1862): PDO->prepare('SELECT e.*, s.n...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php(31): Admin->getPendingEnrollments()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php on line 1862
+[09-May-2025 00:48:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enrollments.student_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php:1865
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php(1865): PDO->prepare('SELECT enrollme...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php(31): Admin->getPendingEnrollments()
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Admin.php on line 1865
+[09-May-2025 00:51:57 UTC] Error getting pending enrollments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enrollments.student_id' in 'on clause'
+[09-May-2025 00:51:57 UTC] PHP Warning:  include(../includes/admin_header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 43
+[09-May-2025 00:51:57 UTC] PHP Warning:  include(): Failed opening '../includes/admin_header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 43
+[09-May-2025 00:51:57 UTC] PHP Warning:  include(../includes/admin_footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 102
+[09-May-2025 00:51:57 UTC] PHP Warning:  include(): Failed opening '../includes/admin_footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 102
+[09-May-2025 00:53:08 UTC] Error getting pending enrollments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enrollments.student_id' in 'on clause'
+[09-May-2025 00:53:08 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin_header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 43
+[09-May-2025 00:53:08 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin_header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 43
+[09-May-2025 00:53:08 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin_footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 102
+[09-May-2025 00:53:08 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin_footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 102
+[09-May-2025 00:53:11 UTC] Error getting pending enrollments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enrollments.student_id' in 'on clause'
+[09-May-2025 00:53:11 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin_header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 43
+[09-May-2025 00:53:11 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin_header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 43
+[09-May-2025 00:53:11 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin_footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 102
+[09-May-2025 00:53:11 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin_footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\pending-enrollments.php on line 102
+[09-May-2025 00:54:50 UTC] Error getting pending enrollments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enrollments.student_id' in 'on clause'
+[09-May-2025 01:13:13 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 196
+[09-May-2025 01:13:13 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\enroll.php on line 196
+[09-May-2025 13:36:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.user_id' in 'field list' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:56
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(56): PDO->prepare('SELECT c.*, e.u...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php(24): Student->getEnrolledCourses(1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 56
+[09-May-2025 13:37:31 UTC] Database connection successful in config.php
+[09-May-2025 13:37:40 UTC] Database connection successful in config.php
+[09-May-2025 13:38:30 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[09-May-2025 13:38:30 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[09-May-2025 13:38:30 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[09-May-2025 13:39:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.user_id' in 'field list' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:56
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(56): PDO->prepare('SELECT c.*, e.u...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php(24): Student->getEnrolledCourses(1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 56
+[09-May-2025 13:52:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.user_id' in 'where clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:56
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(56): PDO->prepare('SELECT c.*, e.e...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php(24): Student->getEnrolledCourses(1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 56
+[09-May-2025 13:59:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.student_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php(136): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 13:59:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.student_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php(104): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 14:06:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.user_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php(104): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 14:06:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.user_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php(104): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 14:06:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.user_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php(136): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 14:06:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.user_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php(104): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 14:07:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.user_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php(136): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 14:09:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.student_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\dashboard.php(136): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 14:09:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cp.student_id' in 'on clause' in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php:69
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Student.php(69): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php(104): Student->getCourseProgress(1, 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Student.php on line 69
+[09-May-2025 14:11:54 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[09-May-2025 14:11:54 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[09-May-2025 14:14:24 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\course-content.php on line 158
+[09-May-2025 14:14:24 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\course-content.php on line 158
+[09-May-2025 14:14:41 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\course-content.php on line 158
+[09-May-2025 14:14:41 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\course-content.php on line 158
+[09-May-2025 14:55:23 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin-header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\manage-modules.php on line 68
+[09-May-2025 14:55:23 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\admin/../includes/admin-header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\manage-modules.php on line 68
+[09-May-2025 15:03:33 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\admin\manage-modules.php on line 7
+[09-May-2025 15:04:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\admin\manage-modules.php on line 10
+[09-May-2025 15:08:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\BeliveTeckk1\admin\manage-modules.php on line 10
+[09-May-2025 15:10:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list' in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php:73
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\classes\Course.php(73): PDO->prepare('INSERT INTO mod...')
+#1 C:\xampp\htdocs\BeliveTeckk1\admin\manage-modules.php(28): Course->createModule(1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 73
+[09-May-2025 15:12:07 UTC] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 75
+[09-May-2025 15:12:07 UTC] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 76
+[09-May-2025 15:12:07 UTC] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 77
+[09-May-2025 15:12:07 UTC] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 78
+[09-May-2025 15:12:40 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[09-May-2025 15:12:40 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[09-May-2025 15:12:46 UTC] PHP Warning:  include(C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[09-May-2025 15:12:46 UTC] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\BeliveTeckk1\students/../includes/student-footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\students\my-courses.php on line 173
+[09-May-2025 15:24:11 UTC] Database connection successful in config.php
+[09-May-2025 15:24:30 UTC] Database connection successful in config.php
+[10-May-2025 20:35:12 UTC] Database connection successful in config.php
+[10-May-2025 21:11:39 UTC] Database connection successful in config.php
+[10-May-2025 21:11:39 UTC] About page team members count: 0
+[10-May-2025 21:11:39 UTC] About page team members data: Array
+(
+)
+
+[10-May-2025 21:11:46 UTC] Database connection successful in config.php
+[10-May-2025 21:35:17 UTC] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 75
+[10-May-2025 21:35:17 UTC] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 76
+[10-May-2025 21:35:17 UTC] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 77
+[10-May-2025 21:35:17 UTC] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\BeliveTeckk1\classes\Course.php on line 78
+[10-May-2025 22:14:11 UTC] Database connection successful in config.php
+[10-May-2025 23:04:16 UTC] Database connection successful in config.php
+[10-May-2025 23:04:32 UTC] Database connection successful in config.php
+[10-May-2025 23:04:53 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[10-May-2025 23:04:53 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[10-May-2025 23:04:53 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[10-May-2025 23:05:48 UTC] Database connection successful in config.php
+[10-May-2025 23:11:49 UTC] Database connection successful in config.php
+[10-May-2025 23:13:44 UTC] Database connection successful in config.php
+[10-May-2025 23:16:44 UTC] Database connection successful in config.php
+[10-May-2025 23:17:37 UTC] Database connection successful in config.php
+[10-May-2025 23:18:11 UTC] Database connection successful in config.php
+[10-May-2025 23:19:00 UTC] Database connection successful in config.php
+[11-May-2025 12:47:03 UTC] Database connection successful in config.php
+[11-May-2025 16:56:24 UTC] Database connection successful in config.php
+[12-May-2025 21:43:18 UTC] Database connection successful in config.php
+[13-May-2025 10:42:08 UTC] Database connection successful in config.php
+[13-May-2025 10:54:00 UTC] Database connection successful in config.php
+[13-May-2025 18:38:14 UTC] Database connection successful in config.php
+[13-May-2025 18:38:23 UTC] Database connection successful in config.php
+[13-May-2025 20:15:22 UTC] Database connection successful in config.php
+[13-May-2025 20:15:22 UTC] About page team members count: 0
+[13-May-2025 20:15:22 UTC] About page team members data: Array
+(
+)
+
+[13-May-2025 20:15:28 UTC] Database connection successful in config.php
+[13-May-2025 20:15:28 UTC] About page team members count: 0
+[13-May-2025 20:15:28 UTC] About page team members data: Array
+(
+)
+
+[14-May-2025 15:48:36 UTC] Database connection successful in config.php
+[14-May-2025 15:48:37 UTC] About page team members count: 0
+[14-May-2025 15:48:37 UTC] About page team members data: Array
+(
+)
+
+[14-May-2025 15:48:37 UTC] Database connection successful in config.php
+[14-May-2025 15:48:37 UTC] About page team members count: 0
+[14-May-2025 15:48:37 UTC] About page team members data: Array
+(
+)
+
+[14-May-2025 15:56:11 UTC] Database connection successful in config.php
+[14-May-2025 15:57:37 UTC] Database connection successful in config.php
+[14-May-2025 15:57:39 UTC] Database connection successful in config.php
+[14-May-2025 15:57:40 UTC] Database connection successful in config.php
+[14-May-2025 15:57:40 UTC] About page team members count: 0
+[14-May-2025 15:57:40 UTC] About page team members data: Array
+(
+)
+
+[14-May-2025 15:58:18 UTC] Database connection successful in config.php
+[14-May-2025 15:59:18 UTC] Database connection successful in config.php
+[14-May-2025 15:59:30 UTC] Database connection successful in config.php
+[14-May-2025 21:28:31 UTC] Database connection successful in config.php
+[14-May-2025 21:29:07 UTC] Database connection successful in config.php
+[14-May-2025 21:29:07 UTC] About page team members count: 0
+[14-May-2025 21:29:07 UTC] About page team members data: Array
+(
+)
+
+[14-May-2025 21:29:15 UTC] Database connection successful in config.php
+[16-May-2025 14:02:13 UTC] Database connection successful in config.php
+[16-May-2025 14:02:24 UTC] Database connection successful in config.php
+[16-May-2025 14:02:24 UTC] Database connection successful in config.php
+[16-May-2025 14:02:24 UTC] Database connection successful in config.php
+[16-May-2025 14:02:24 UTC] Database connection successful in config.php
+[16-May-2025 14:02:24 UTC] Database connection successful in config.php
+[16-May-2025 14:02:26 UTC] Database connection successful in config.php
+[16-May-2025 14:02:26 UTC] Database connection successful in config.php
+[16-May-2025 14:02:26 UTC] Database connection successful in config.php
+[16-May-2025 14:02:26 UTC] Database connection successful in config.php
+[16-May-2025 14:02:26 UTC] Database connection successful in config.php
+[16-May-2025 14:02:34 UTC] Database connection successful in config.php
+[16-May-2025 14:02:34 UTC] Database connection successful in config.php
+[16-May-2025 14:02:34 UTC] Database connection successful in config.php
+[16-May-2025 14:02:34 UTC] Database connection successful in config.php
+[16-May-2025 14:02:34 UTC] Database connection successful in config.php
+[16-May-2025 14:02:36 UTC] Database connection successful in config.php
+[16-May-2025 14:02:36 UTC] Database connection successful in config.php
+[16-May-2025 14:02:36 UTC] Database connection successful in config.php
+[16-May-2025 14:02:36 UTC] Database connection successful in config.php
+[16-May-2025 14:02:36 UTC] Database connection successful in config.php
+[16-May-2025 14:02:39 UTC] Database connection successful in config.php
+[16-May-2025 14:02:39 UTC] Database connection successful in config.php
+[16-May-2025 14:02:39 UTC] Database connection successful in config.php
+[16-May-2025 14:02:39 UTC] Database connection successful in config.php
+[16-May-2025 14:02:39 UTC] Database connection successful in config.php
+[16-May-2025 14:02:41 UTC] Database connection successful in config.php
+[16-May-2025 14:02:56 UTC] Database connection successful in config.php
+[16-May-2025 14:02:56 UTC] Database connection successful in config.php
+[16-May-2025 14:02:56 UTC] Database connection successful in config.php
+[16-May-2025 14:02:56 UTC] Database connection successful in config.php
+[16-May-2025 14:02:56 UTC] Database connection successful in config.php
+[16-May-2025 14:02:58 UTC] Database connection successful in config.php
+[16-May-2025 14:02:58 UTC] Database connection successful in config.php
+[16-May-2025 14:02:58 UTC] Database connection successful in config.php
+[16-May-2025 14:02:58 UTC] Database connection successful in config.php
+[16-May-2025 14:02:58 UTC] Database connection successful in config.php
+[16-May-2025 14:03:11 UTC] Database connection successful in config.php
+[16-May-2025 14:03:22 UTC] Database connection successful in config.php
+[16-May-2025 17:51:02 UTC] Database connection successful in config.php
+[16-May-2025 17:53:43 UTC] Database connection successful in config.php
+[16-May-2025 17:53:43 UTC] Error fetching clients: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.clients' doesn't exist
+[16-May-2025 17:58:08 UTC] Database connection successful in config.php
+[16-May-2025 17:58:08 UTC] Error fetching testimonials: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+[16-May-2025 18:03:57 UTC] Database connection successful in config.php
+[16-May-2025 18:15:35 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[16-May-2025 18:15:35 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[16-May-2025 18:15:35 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[16-May-2025 18:15:53 UTC] PHP Warning:  require_once(includes/auth_check.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php on line 3
+[16-May-2025 18:15:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/auth_check.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php on line 3
+[16-May-2025 18:19:32 UTC] Database connection successful in config.php
+[16-May-2025 18:19:32 UTC] PHP Warning:  require_once(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php on line 339
+[16-May-2025 18:19:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php:339
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php on line 339
+[16-May-2025 18:21:14 UTC] Database connection successful in config.php
+[16-May-2025 18:21:14 UTC] PHP Warning:  require_once(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php on line 353
+[16-May-2025 18:21:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php:353
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\clients.php on line 353
+[16-May-2025 18:21:20 UTC] PHP Warning:  require_once(includes/auth_check.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php on line 3
+[16-May-2025 18:21:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/auth_check.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php on line 3
+[16-May-2025 18:21:52 UTC] Database connection successful in config.php
+[16-May-2025 19:18:03 UTC] Database connection successful in config.php
+[16-May-2025 19:20:44 UTC] Database connection successful in config.php
+[16-May-2025 19:20:44 UTC] Database connection successful in config.php
+[16-May-2025 19:24:54 UTC] Database connection successful in config.php
+[16-May-2025 19:25:17 UTC] Database connection successful in config.php
+[16-May-2025 19:25:17 UTC] Database connection successful in config.php
+[16-May-2025 19:27:52 UTC] Database connection successful in config.php
+[16-May-2025 19:28:07 UTC] Database connection successful in config.php
+[16-May-2025 19:28:07 UTC] Database connection successful in config.php
+[16-May-2025 19:28:25 UTC] Database connection successful in config.php
+[16-May-2025 19:28:33 UTC] Database connection successful in config.php
+[16-May-2025 19:29:53 UTC] Database connection successful in config.php
+[16-May-2025 19:30:44 UTC] Database connection successful in config.php
+[16-May-2025 19:30:44 UTC] Database connection successful in config.php
+[16-May-2025 19:30:50 UTC] Database connection successful in config.php
+[16-May-2025 19:31:29 UTC] PHP Warning:  require_once(includes/auth_check.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php on line 3
+[16-May-2025 19:31:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/auth_check.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php on line 3
+[16-May-2025 19:32:08 UTC] Database connection successful in config.php
+[16-May-2025 19:32:08 UTC] PHP Warning:  require_once(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php on line 418
+[16-May-2025 19:32:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php:418
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php on line 418
+[16-May-2025 19:33:19 UTC] Database connection successful in config.php
+[16-May-2025 19:33:19 UTC] PHP Warning:  require_once(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php on line 448
+[16-May-2025 19:33:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php:448
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\testimonials.php on line 448
+[16-May-2025 19:37:30 UTC] Database connection successful in config.php
+[16-May-2025 19:42:21 UTC] Database connection successful in config.php
+[16-May-2025 19:42:21 UTC] Database connection successful in config.php
+[16-May-2025 19:42:45 UTC] Database connection successful in config.php
+[16-May-2025 19:46:47 UTC] Database connection successful in config.php
+[16-May-2025 19:46:55 UTC] Database connection successful in config.php
+[16-May-2025 19:50:44 UTC] Database connection successful in config.php
+[16-May-2025 19:50:44 UTC] Database connection successful in config.php
+[16-May-2025 19:50:51 UTC] Database connection successful in config.php
+[16-May-2025 19:51:21 UTC] Database connection successful in config.php
+[16-May-2025 19:52:24 UTC] Database connection successful in config.php
+[16-May-2025 19:53:15 UTC] Database connection successful in config.php
+[16-May-2025 19:53:15 UTC] Database connection successful in config.php
+[16-May-2025 19:53:24 UTC] Database connection successful in config.php
+[16-May-2025 19:53:30 UTC] Database connection successful in config.php
+[16-May-2025 19:53:45 UTC] Database connection successful in config.php
+[16-May-2025 19:53:50 UTC] Database connection successful in config.php
+[16-May-2025 19:54:05 UTC] Database connection successful in config.php
+[16-May-2025 19:54:31 UTC] Database connection successful in config.php
+[16-May-2025 19:56:54 UTC] Database connection successful in config.php
+[16-May-2025 19:56:54 UTC] Database connection successful in config.php
+[16-May-2025 19:57:06 UTC] Database connection successful in config.php
+[16-May-2025 19:58:27 UTC] Database connection successful in config.php
+[16-May-2025 19:58:27 UTC] Database connection successful in config.php
+[16-May-2025 19:59:25 UTC] Database connection successful in config.php
+[16-May-2025 19:59:25 UTC] Database connection successful in config.php
+[16-May-2025 20:00:50 UTC] Database connection successful in config.php
+[16-May-2025 20:00:50 UTC] Database connection successful in config.php
+[16-May-2025 20:01:10 UTC] Database connection successful in config.php
+[16-May-2025 20:03:27 UTC] Database connection successful in config.php
+[16-May-2025 20:05:51 UTC] Database connection successful in config.php
+[16-May-2025 20:05:51 UTC] Database connection successful in config.php
+[16-May-2025 20:06:03 UTC] Database connection successful in config.php
+[16-May-2025 20:06:57 UTC] Database connection successful in config.php
+[16-May-2025 20:10:46 UTC] Database connection successful in config.php
+[16-May-2025 20:11:20 UTC] Database connection successful in config.php
+[16-May-2025 20:11:20 UTC] About page team members count: 0
+[16-May-2025 20:11:20 UTC] About page team members data: Array
+(
+)
+
+[16-May-2025 20:11:44 UTC] Database connection successful in config.php
+[16-May-2025 20:12:12 UTC] Database connection successful in config.php
+[16-May-2025 20:13:04 UTC] Database connection successful in config.php
+[16-May-2025 20:16:02 UTC] Database connection successful in config.php
+[16-May-2025 20:16:34 UTC] Database connection successful in config.php
+[16-May-2025 20:16:46 UTC] Database connection successful in config.php
+[16-May-2025 20:16:58 UTC] Database connection successful in config.php
+[16-May-2025 20:19:09 UTC] Database connection successful in config.php
+[16-May-2025 20:19:09 UTC] Database connection successful in config.php
+[16-May-2025 20:19:17 UTC] Database connection successful in config.php
+[16-May-2025 20:19:37 UTC] Database connection successful in config.php
+[16-May-2025 20:19:37 UTC] Database connection successful in config.php
+[16-May-2025 20:22:00 UTC] Database connection successful in config.php
+[16-May-2025 20:23:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.visitor_logs' doesn't exist in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php:23
+Stack trace:
+#0 C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php(23): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 23
+[16-May-2025 20:30:45 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[16-May-2025 20:30:45 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[16-May-2025 20:30:45 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[16-May-2025 20:31:18 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[16-May-2025 20:31:18 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[16-May-2025 20:31:18 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[16-May-2025 20:34:44 UTC] Error fetching analytics data: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'referrer' in 'field list'
+[16-May-2025 20:41:33 UTC] Error fetching analytics data: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'referrer' in 'field list'
+[16-May-2025 20:42:00 UTC] Error fetching analytics data: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'referrer' in 'field list'
+[16-May-2025 21:10:04 UTC] Database connection successful in config.php
+[16-May-2025 21:10:29 UTC] Database connection successful in config.php
+[16-May-2025 21:13:50 UTC] Database connection successful in config.php
+[16-May-2025 21:43:34 UTC] Database connection successful in config.php
+[16-May-2025 21:43:34 UTC] Database connection successful in config.php
+[16-May-2025 21:55:07 UTC] Database connection successful in config.php
+[16-May-2025 21:55:54 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[16-May-2025 21:55:54 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[16-May-2025 21:55:54 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[16-May-2025 21:55:54 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[16-May-2025 21:55:54 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[16-May-2025 21:55:54 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[16-May-2025 21:56:03 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[16-May-2025 21:56:03 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[16-May-2025 21:56:03 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[16-May-2025 21:56:28 UTC] Database connection successful in config.php
+[16-May-2025 21:57:27 UTC] Database connection successful in config.php
+[16-May-2025 21:59:07 UTC] Database connection successful in config.php
+[16-May-2025 21:59:07 UTC] Database connection successful in config.php
+[16-May-2025 21:59:16 UTC] Database connection successful in config.php
+[16-May-2025 21:59:54 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[16-May-2025 21:59:54 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[16-May-2025 21:59:54 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[16-May-2025 22:00:07 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[16-May-2025 22:00:07 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[16-May-2025 22:00:07 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[16-May-2025 22:00:54 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[16-May-2025 22:00:54 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[16-May-2025 22:00:54 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[16-May-2025 22:00:59 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[16-May-2025 22:00:59 UTC] Found 0 team members
+[16-May-2025 22:00:59 UTC] Team members count: 0
+[16-May-2025 22:00:59 UTC] Team members data: Array
+(
+)
+
+[16-May-2025 22:00:59 UTC] Team members table exists: Yes
+[16-May-2025 22:01:01 UTC] Executing query: SELECT * FROM team_members WHERE is_active = 1 ORDER BY order_index ASC, created_at DESC
+[16-May-2025 22:01:01 UTC] Found 0 team members
+[16-May-2025 22:01:01 UTC] Team members count: 0
+[16-May-2025 22:01:01 UTC] Team members data: Array
+(
+)
+
+[16-May-2025 22:01:01 UTC] Team members table exists: Yes
+[16-May-2025 22:01:05 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[16-May-2025 22:01:05 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[16-May-2025 22:01:05 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[16-May-2025 22:17:12 UTC] Database connection successful in config.php
+[16-May-2025 22:17:37 UTC] Database connection successful in config.php
+[16-May-2025 22:18:49 UTC] Database connection successful in config.php
+[16-May-2025 22:19:25 UTC] Database connection successful in config.php
+[16-May-2025 22:19:25 UTC] About page team members count: 0
+[16-May-2025 22:19:25 UTC] About page team members data: Array
+(
+)
+
+[17-May-2025 14:39:51 UTC] Database connection successful in config.php
+[17-May-2025 14:39:51 UTC] Database connection successful in config.php
+[18-May-2025 19:42:39 UTC] Database connection successful in config.php
+[18-May-2025 19:43:25 UTC] Database connection successful in config.php
+[19-May-2025 18:53:46 UTC] Database connection successful in config.php
+[19-May-2025 18:54:16 UTC] Database connection successful in config.php
+[20-May-2025 08:26:53 UTC] Database connection successful in config.php
+[20-May-2025 08:27:52 UTC] Database connection successful in config.php
+[20-May-2025 08:28:12 UTC] Database connection successful in config.php
+[20-May-2025 08:29:36 UTC] Database connection successful in config.php
+[20-May-2025 08:29:54 UTC] Database connection successful in config.php
+[20-May-2025 08:30:16 UTC] Get login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[20-May-2025 08:30:16 UTC] Reset login attempts error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'believe_teckk_db.admin_login_attempts' doesn't exist
+[20-May-2025 08:30:16 UTC] Admin login successful: believebrat@gmail.com from IP: ::1
+[20-May-2025 08:30:16 UTC] PHP Warning:  Undefined variable $trafficLabels in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 447
+[20-May-2025 08:30:16 UTC] PHP Warning:  Undefined variable $trafficData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 451
+[20-May-2025 08:30:16 UTC] PHP Warning:  Undefined variable $uniqueVisitorsData in C:\xampp\htdocs\BeliveTeckk1\admin\dashboard.php on line 460
+[20-May-2025 08:30:31 UTC] Database connection successful in config.php
+[20-May-2025 09:43:26 UTC] Database connection successful in config.php
+[20-May-2025 09:44:12 UTC] Database connection successful in config.php
+[20-May-2025 09:44:34 UTC] Database connection successful in config.php
+[20-May-2025 09:48:50 UTC] Database connection successful in config.php
+[20-May-2025 09:52:10 UTC] Database connection successful in config.php
+[20-May-2025 09:54:02 UTC] Database connection successful in config.php
+[20-May-2025 09:54:15 UTC] Database connection successful in config.php
+[20-May-2025 10:06:45 UTC] Database connection successful in config.php
+[20-May-2025 13:12:13 UTC] Database connection successful in config.php
+[20-May-2025 16:25:58 UTC] Database connection successful in config.php
